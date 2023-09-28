@@ -1,0 +1,394 @@
+body {
+    font-family: "Heebo", sans-serif;
+}
+
+/* baner css start */
+.web-logo img {
+    width: 200px;
+    height: 60px;
+}
+
+#banner {
+    height: 700px;
+    background-image: url(https://img.freepik.com/free-photo/female-wedding-planner-working-with-client_23-2150167170.jpg?size=626&ext=jpg&uid=R113030202&ga=GA1.2.1980355618.1691657413&semt=ais);
+    background-size: 100% 100%;
+}
+
+#banner::before {
+    content: "";
+    background-color: #000;
+    position: absolute;
+    top: 85px;
+    width: 100%;
+    height: 701px;
+    opacity: 0.5;
+}
+
+.banner-content {
+    position: relative;
+    width: 55%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.head {
+    color: #fff;
+    padding-top: 120px;
+    font-size: 60px;
+}
+
+.para {
+    color: #fff;
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+.banner-content a {
+    padding: 10px 25px;
+    margin-top: 10px;
+
+}
+
+/* banner css end */
+/* search css start */
+#search {
+    height: 60px;
+    background-color: green;
+}
+
+.search-content {
+    display: flex;
+    padding: 10px;
+}
+
+.input-box {
+    margin-left: 10px;
+}
+
+#btn-search {
+    margin-left: 10px;
+    width: 500px;
+}
+
+/* search css end */
+/* category css start */
+#category {
+    background-color: #d5cfcf;
+    height: 650px;
+}
+
+.category-heading {
+    font-size: 44px;
+    font-weight: 600;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.category-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+.category-box {
+    width: 25%;
+}
+
+.category-data {
+    background-color: #f2f2f2;
+    height: 200px;
+    margin: 5px;
+    border: 2px solid #f2f2f2;
+    padding-left: 15px;
+
+}
+
+.category-data i {
+    font-size: 40px;
+    color: #00B074;
+    padding-top: 24px;
+}
+
+.category-data h3 {
+    color: #000;
+    font-size: 23px;
+    padding-top: 22px;
+}
+
+.category-data p {
+    color: #00B074;
+    font-size: 20px;
+    padding-top: 22px;
+}
+
+/* category css end */
+/*  */
+/* about section css start */
+
+.about-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left-box {
+    width: 600px;
+    height: 500px;
+    line-height: 1.7;
+    text-align: left;
+}
+
+.left-box h1 {
+    color: #00B074;
+    font-size: 40px;
+    margin-top: 40px;
+    padding: 10px;
+}
+
+.left-box p {
+    margin-top: 10px;
+    font-size: 18px;
+    margin-bottom: 30px;
+    padding: 10px;
+
+}
+
+.right-box {
+    width: 600px;
+    height: 500px;
+}
+
+.right-box img {
+    width: 100%;
+    height: 500px;
+}
+
+/* about sction css end */
+/* team css start */
+#team {
+    background-color: #d5cfcf;
+    height: 400px;
+}
+
+.team-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.team-data {
+    width: 50%;
+    text-align: center;
+}
+
+.team-left img {
+    margin-top: 10px;
+}
+
+/* team css end */
+/* job-listing css start */
+#job-listing {
+    height: auto;
+    background-color: #EFFDF5;
+}
+
+.job-heading {
+    font-size: 45px;
+    font-weight: 600;
+    padding-top: 45px;
+}
+
+.joblist-link {
+    display: flex;
+    justify-content: center;
+}
+
+.joblist-link li {
+    padding: 30px 10px;
+    list-style-type: none;
+    border-bottom: 1px solid black;
+}
+
+.joblist-link li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #2B3940;
+    font-weight: 700;
+}
+
+.joblisting-content {
+    margin-top: 30px;
+}
+
+.joblisting-data {
+    display: flex;
+    border: 1px solid;
+    height: 120px;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+.logo img {
+    margin: 10px;
+    border: 1px solid gray;
+    width: 80%;
+    height: 100px;
+}
+
+.list-title-box h5 {
+    margin-left: 20px;
+    margin-top: 18px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000;
+}
+
+.address-text {
+    margin-top: 36px;
+    margin-left: 20px;
+}
+
+.list-btn {
+    margin-left: auto;
+}
+
+.list-btn-row1 {
+    margin-top: 18px;
+    margin-right: 18px;
+}
+
+.list-btn-row1 i {
+    color: #00B074;
+}
+
+.list-btn-row1 a {
+    color: #fff;
+    padding: 10px 14px;
+    margin-left: 10px;
+}
+
+.date-text {
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+.date-text i {
+    color: #00B074;
+}
+
+.date-text i,
+span {
+    margin-left: 10px;
+}
+
+.address-text i {
+    color: #00B074;
+    margin-left: 10px;
+}
+
+.job-btn {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.job-btn button {
+    width: 300px;
+    font-size: 20px;
+    padding: 15px 0px;
+}
+
+/* joblisting css end */
+/* footer css start */
+footer {
+    background-color: #2B3940;
+    height: 330px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.footer-head {
+    color: #fff;
+    font-size: 22px;
+    margin-left: 30px;
+}
+
+.footer-data {
+    margin-top: 40px;
+    padding-left: 10px;
+}
+
+.footer-data ul {
+    list-style-type: none;
+}
+
+.footer-data ul li {
+    padding-top: 10px;
+}
+
+.footer-data ul li a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+}
+
+.contact-data {
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 20px;
+}
+
+.contact-data i {
+    color: rgba(255, 255, 255, 0.5);
+    padding-right: 10px;
+    font-weight: 100px;
+    font-size: 20px;
+}
+
+.social-icons {
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.social-icons i {
+    border: 1px solid;
+    padding: 10px;
+}
+
+.social-icons i:hover {
+    color: #00B074;
+    border: 1px solid;
+}
+
+.footer-data p {
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 30px;
+}
+
+.footer-data input {
+    padding: 10px 35px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.footer-input {
+    position: relative;
+    border-radius: 5px;
+}
+
+.footer-btn {
+    position: absolute;
+    right: 200px;
+    margin-top: 16px;
+}
+
+.footer-end h2 {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.5);
+    padding-top: 6px;
+}
+
+/* footer css end */
